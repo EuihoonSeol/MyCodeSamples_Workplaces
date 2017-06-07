@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ShortCut_EclipseLuna
+Comment=Run Eclipse Luna
+Exec=/home/user/eclipse/eclipse
+Icon=/home/user/eclipse/icon.xpm
+Terminal=false
+Type=Application
