@@ -1,0 +1,1 @@
+findstr /s /n /i git@git *
