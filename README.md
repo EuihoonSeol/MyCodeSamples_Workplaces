@@ -17,3 +17,9 @@ step1. open your user account's crontab file: crontab -e<br/>
 step2. select an editor: 2<br/>
 step3. add a new task (minute(0-59) hour(0-23) day(1-31) month(1-12) weekday(0-6) command) i.e., 0 6 * * * /home/user/Desktop/AutomaticGitPull.sh<br/>
 step4. press Ctrl-O and press Enter to save the file in Nano<br/>
+
+<br/>
+<b>CodeSample3.</b><br/>
+Technologies: Windows, Command Line<br/>
+Situation: As our company has changed our Gitlab domain names, our scripts running everyday need to be updated. However, it is challenging for us to find every single hardcoded old Gitlab domain address in files because those files are distributed across multiple system.<br/>
+Resolution: Use a Windows command to search for a text string in files such as findstr /s /n /i git@git *<br/>
