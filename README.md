@@ -23,3 +23,9 @@ step4. press Ctrl-O and press Enter to save the file in Nano<br/>
 Technologies: Windows, Command Line<br/>
 Situation: As our company has changed our Gitlab domain names, our scripts running everyday need to be updated. However, it is challenging for us to find every single hardcoded old Gitlab domain address in files because those files are distributed across multiple system.<br/>
 Resolution: Use a Windows command to search for a text string in files such as findstr /s /n /i git@git *<br/>
+
+<br/>
+<b>CodeSample4.</b><br/>
+Technologies: Java<br/>
+Situation: <br/>
+Resolution: built a library to convert RESTful API response (multidimensional JSON objects) into ARFF (Attribute-Relation File Format) file for Machine Learning Project. Java<br/>
